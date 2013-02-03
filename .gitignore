@@ -10,6 +10,7 @@
 *.vi
 *~
 *.sass-cache
+*.pyc
 
 # OS or Editor folders
 .DS_Store
