@@ -6,6 +6,12 @@
 // Global values
 // --------------------------------------------------
 
+// Golds
+// -------------------------
+@gold:			#a98852;
+@goldDark:		#19130d;
+@goldLight:		#b89d68;
+
 
 // Grays
 // -------------------------
@@ -32,13 +38,13 @@
 
 // Scaffolding
 // -------------------------
-@bodyBackground:        @white;
+@bodyBackground:        @goldDark;
 @textColor:             @grayDark;
 
 
 // Links
 // -------------------------
-@linkColor:             #08c;
+@linkColor:             @gold;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -181,33 +187,33 @@
 @navbarCollapseDesktopWidth:      @navbarCollapseWidth + 1;
 
 @navbarHeight:                    40px;
-@navbarBackgroundHighlight:       #ffffff;
+@navbarBackgroundHighlight:       @goldLight;
 @navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
 @navbarBorder:                    darken(@navbarBackground, 12%);
 
-@navbarText:                      #777;
-@navbarLinkColor:                 #777;
-@navbarLinkColorHover:            @grayDark;
-@navbarLinkColorActive:           @gray;
-@navbarLinkBackgroundHover:       transparent;
+@navbarText:                      @goldDark;
+@navbarLinkColor:                 lighten(@goldDark,10%);
+@navbarLinkColorHover:            #000;
+@navbarLinkColorActive:           #fff;
+@navbarLinkBackgroundHover:       darken(@navbarBackground, 10%);
 @navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
 
 @navbarBrandColor:                @navbarLinkColor;
 
 // Inverted navbar
-@navbarInverseBackground:                #111111;
-@navbarInverseBackgroundHighlight:       #222222;
-@navbarInverseBorder:                    #252525;
+@navbarInverseBackground:                darken(@goldDark,5%);
+@navbarInverseBackgroundHighlight:       @goldDark;
+@navbarInverseBorder:                    lighten(@goldDark,5%);
 
-@navbarInverseText:                      @grayLight;
-@navbarInverseLinkColor:                 @grayLight;
-@navbarInverseLinkColorHover:            @white;
+@navbarInverseText:                      @white;
+@navbarInverseLinkColor:                 @goldLight;
+@navbarInverseLinkColorHover:            lighten(@navbarInverseLinkColor,10%);
 @navbarInverseLinkColorActive:           @navbarInverseLinkColorHover;
 @navbarInverseLinkBackgroundHover:       transparent;
 @navbarInverseLinkBackgroundActive:      @navbarInverseBackground;
 
 @navbarInverseSearchBackground:          lighten(@navbarInverseBackground, 25%);
-@navbarInverseSearchBackgroundFocus:     @white;
+@navbarInverseSearchBackgroundFocus:     @goldLight;
 @navbarInverseSearchBorder:              @navbarInverseBackground;
 @navbarInverseSearchPlaceholderColor:    #ccc;
 
@@ -272,13 +278,13 @@
 // Default 940px grid
 // -------------------------
 @gridColumns:             12;
-@gridColumnWidth:         60px;
+@gridColumnWidth:         59px;
 @gridGutterWidth:         20px;
 @gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
 
 // 1200px min
-@gridColumnWidth1200:     70px;
-@gridGutterWidth1200:     30px;
+@gridColumnWidth1200:     59px;
+@gridGutterWidth1200:     20px;
 @gridRowWidth1200:        (@gridColumns * @gridColumnWidth1200) + (@gridGutterWidth1200 * (@gridColumns - 1));
 
 // 768px-979px
