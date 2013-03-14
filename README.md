@@ -1,3 +1,6 @@
+# CDG branch
+Just `make bootstrap` and it should be fine as a Django "product" with a `static/` folder
+
 # [Twitter Bootstrap v2.2.2](http://twitter.github.com/bootstrap) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
 
 Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat).

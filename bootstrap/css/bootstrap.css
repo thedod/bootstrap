@@ -6040,5 +6040,5 @@ a.badge:hover {
 
 .sidebar-container {
   margin-right: 20px;
-  margin-left: 0;
+  margin-left: 0 !important;
 }
