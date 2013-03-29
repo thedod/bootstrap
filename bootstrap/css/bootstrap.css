@@ -6039,6 +6039,21 @@ a.badge:hover {
 }
 
 .sidebar-container {
-  margin-right: 20px;
-  margin-left: 0 !important;
+  background: #19130d;
+  -webkit-box-shadow: 0 0px 4px rgba(24, 18, 12, 0.5);
+     -moz-box-shadow: 0 0px 4px rgba(24, 18, 12, 0.5);
+          box-shadow: 0 0px 4px rgba(24, 18, 12, 0.5);
+}
+
+@media (min-width: 768px) {
+  .sidebar-container {
+    position: fixed;
+    margin-right: 20px;
+    margin-left: 0 !important;
+  }
+  #content-body {
+    margin-left: 257px;
+    margin-left: 27.693965517241377%;
+    *margin-left: 27.58620689655172%;
+  }
 }
