@@ -6059,4 +6059,9 @@ a.badge:hover {
     margin-left: 27.693965517241377%;
     *margin-left: 27.58620689655172%;
   }
+  .anchor-offset {
+    position: relative;
+    top: -40px;
+    z-index: 5;
+  }
 }
